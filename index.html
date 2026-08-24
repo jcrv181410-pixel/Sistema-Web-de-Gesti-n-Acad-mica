@@ -73,6 +73,45 @@
             font-weight: bold;
             font-size: 15px;
         }
+        .boton {
+      display: inline-block;
+      margin-top: 50px;
+      padding: 15px 30px;
+      background-color: #c8102e;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+        border-radius: 8px;
+}
+.procesos {
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+.procesos h1 {
+    font-size: 26px;
+    margin-bottom: 60px;
+}
+
+.proceso {
+    display: block;
+    width: 300px;
+    margin: 25px auto;
+    padding: 18px;
+    background-color: #c8102e;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.proceso:hover {
+    background-color: #a50d26;
+}
+.boton:hover {
+    background-color: #a50d26;
+}
     </style>
 </head>
 
@@ -115,11 +154,24 @@
         <div class="anio">
             2026
         </div>
-
+<a href="#procesos" class="boton">
+    Ver procesos
+</a>
     </div>
+    
+    <section id="procesos" class="procesos">
+
+    <h1>Procesos del Sistema de Gestión Académica</h1>
+
+    <a href="matricula.html" target="_blank" class="proceso">
+        Proceso de Matrícula
+    </a>
+
+    <a href="admision.html" target="_blank" class="proceso">
+        Proceso de Admisión
+    </a>
+
+</section>
 
 </body>
 </html>
-<a href="procesos.html" class="boton">
-    Ver procesos
-</a>
